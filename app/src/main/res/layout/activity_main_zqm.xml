@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity_zqm">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="239dp"
+        android:layout_height="152dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="7dp"
+        android:contentDescription="@string/todo2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:srcCompat="@drawable/pic2" />
+
     <TextView
         android:id="@+id/zqm_textview"
         android:layout_width="wrap_content"
@@ -21,20 +33,24 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="341dp"
+        android:layout_marginBottom="39dp"
         android:onClick="Do"
         android:text="@string/Do1"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView"-->
-<!--        android:layout_width="132dp"-->
-<!--        android:layout_height="110dp"-->
-<!--        app:layout_constrainBottom_toBottomOf="@id/button2"-->
-<!--        app:layout_constrainStart_toStartOf="parent"-->
-<!--        app:srcCompat="@drawable/pic2"-->
-<!--        android:contentDescription="@string/todo1" />-->
+
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView"-->
+    <!--        android:layout_width="132dp"-->
+    <!--        android:layout_height="110dp"-->
+    <!--        app:layout_constrainBottom_toBottomOf="@id/button2"-->
+    <!--        app:layout_constrainStart_toStartOf="parent"-->
+    <!--        app:srcCompat="@drawable/pic2"-->
+    <!--        android:contentDescription="@string/todo1" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>
