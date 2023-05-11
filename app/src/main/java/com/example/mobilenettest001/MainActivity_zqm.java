@@ -13,16 +13,7 @@ public class MainActivity_zqm extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-
-    public void login(View view) {
-        Toast.makeText(this, "恭喜你登陆成功", Toast.LENGTH_SHORT).show();
-        Toast.makeText(MainActivity_zqm.this,"WIFI已断开",Toast.LENGTH_SHORT).show();
-    }
-
-    public void register(View view) {
-
+        setContentView(R.layout.activity_main_zqm);
     }
 
     @SuppressLint("SetTextI18n")
