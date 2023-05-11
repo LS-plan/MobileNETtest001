@@ -20,6 +20,7 @@ public class MainActivity_zqm extends AppCompatActivity {
     public void Do(View view) {
         TextView tv=findViewById(R.id.zqm_textview);
         tv.setText("上穷碧落下黄泉！");
+        Toast.makeText(this,"你是文盲",Toast.LENGTH_SHORT).show();
 
     }
 }
