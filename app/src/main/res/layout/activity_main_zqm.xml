@@ -29,12 +29,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="132dp"
-        android:layout_height="110dp"
-        app:layout_constrainBottom_toBottomOf="@id/button2"
-        app:layout_constrainStart_toStartOf="parent"
-        app:srcCompat="@drawable/pic2"
-        android:contentDescription="@string/todo1" />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="132dp"-->
+<!--        android:layout_height="110dp"-->
+<!--        app:layout_constrainBottom_toBottomOf="@id/button2"-->
+<!--        app:layout_constrainStart_toStartOf="parent"-->
+<!--        app:srcCompat="@drawable/pic2"-->
+<!--        android:contentDescription="@string/todo1" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>
