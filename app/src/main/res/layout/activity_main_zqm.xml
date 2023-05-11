@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity_zqm">
 
     <TextView
         android:id="@+id/zqm_textview"
@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.417" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="Do"
@@ -29,4 +29,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="132dp"
+        android:layout_height="110dp"
+        app:layout_constrainBottom_toBottomOf="@id/button2"
+        app:layout_constrainStart_toStartOf="parent"
+        app:srcCompat="@drawable/pic2"
+        android:contentDescription="@string/todo1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
