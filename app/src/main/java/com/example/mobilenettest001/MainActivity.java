@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void login(View view) {
+    public void welcome(View view) {
         Toast.makeText(this, "恭喜你登陆成功", Toast.LENGTH_SHORT).show();
     }
 
