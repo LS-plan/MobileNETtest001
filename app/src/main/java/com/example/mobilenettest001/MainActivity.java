@@ -14,11 +14,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toast.makeText(this,"Wifi已连接",Toast.LENGTH_SHORT).show();
     }
 
     @SuppressLint("SetTextI18n")
-    public void Do(View view) {
+    public void welcome(View view) {
         TextView tv=findViewById(R.id.textview);
-        tv.setText("上穷碧落下黄泉1");
+        tv.setText("UPC欢迎你！");
+        Toast.makeText(this,"Wifi已断开",Toast.LENGTH_SHORT).show();
     }
 }
