@@ -15,4 +15,15 @@
     <string name="todo1">TODO</string>
     <string name="todo2">todo2</string>
     <string name="welcome">这里是宋树裕</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_list_view">ListView</string>
+    <string name="nobody">Nobody.</string>
+    <string name="be_somebody">Be Somebody.</string>
 </resources>
