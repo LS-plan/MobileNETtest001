@@ -3,6 +3,7 @@ package com.example.mobilenettest001;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -22,5 +23,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv=findViewById(R.id.textview);
         tv.setText("UPC欢迎你！");
         Toast.makeText(this,"Wifi已断开",Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, ListViewSsyActivity.class);
+        startActivity(intent);
     }
 }

@@ -41,4 +41,7 @@
         app:srcCompat="@drawable/pic1"
         tools:ignore="VisualLintBounds" />
 
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
