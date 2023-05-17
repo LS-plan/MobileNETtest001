@@ -26,4 +26,5 @@
     <string name="title_activity_list_view">ListView</string>
     <string name="nobody">Nobody.</string>
     <string name="be_somebody">Be Somebody.</string>
+    <string name="copyright_2023_upc">Copyright © 2023 UPC-宋树裕</string>
 </resources>

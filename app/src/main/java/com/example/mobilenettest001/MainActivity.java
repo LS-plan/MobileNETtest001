@@ -23,6 +23,15 @@ public class MainActivity extends AppCompatActivity {
         TextView tv=findViewById(R.id.textview);
         tv.setText("UPC欢迎你！");
         Toast.makeText(this,"Wifi已断开",Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, LoginSsyActivity.class);
+        startActivity(intent);
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void welcome2(View view) {
+        TextView tv=findViewById(R.id.textview);
+        tv.setText("UPC欢迎你！");
+        Toast.makeText(this,"Wifi已断开",Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, ListViewSsyActivity.class);
         startActivity(intent);
     }
