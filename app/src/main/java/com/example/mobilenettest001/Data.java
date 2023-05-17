@@ -4,24 +4,38 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Data {
-    private final Map<String, Object> Map;
+    private String theme;
+    private String content;
+    private int image;
 
-    public Map<String, Object> getMap() {
-        return Map;
+    public String getTheme() {
+        return theme;
     }
 
-    public Data(int imageView, String theme, String content) {
-        Map<String, Object> map = new HashMap<>();
-        map.put("image",imageView);
-        map.put("theme",theme);
-        map.put("content",content);
-        Map = map;
+    public String getContent() {
+        return content;
     }
 
-    public Data(Map<String, Object> map) {
-//        map.put("image",map.get("image"));
-//        map.put("theme",map.get("theme"));
-//        map.put("content",map.get("content"));
-        Map = map;
+    public int getImage() {
+        return image;
     }
+
+    public String setTheme() {
+        return theme;
+    }
+
+    public String setContent() {
+        return content;
+    }
+
+    public int setImage() {
+        return image;
+    }
+
+//    public Data(int image, String theme, String content) {
+//        this.image = image;
+//        this.theme = theme;
+//        this.content = content;
+//    }
+
 }
