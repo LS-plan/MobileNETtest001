@@ -6,6 +6,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,24 +16,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(this,"Wifi已连接",Toast.LENGTH_SHORT).show();
     }
 
     @SuppressLint("SetTextI18n")
-    public void welcome(View view) {
-        TextView tv=findViewById(R.id.textview);
-        tv.setText("UPC欢迎你！");
-        Toast.makeText(this,"Wifi已断开",Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, LoginSsyActivity.class);
-        startActivity(intent);
-    }
+    public void Do(View view) {
+        TextView tv = findViewById(R.id.textview);
+        tv.setText("上穷碧落下黄泉1");
 
-    @SuppressLint("SetTextI18n")
-    public void welcome2(View view) {
-        TextView tv=findViewById(R.id.textview);
-        tv.setText("UPC欢迎你！");
-        Toast.makeText(this,"Wifi已断开",Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, ListViewSsyActivity.class);
-        startActivity(intent);
     }
 }
+
+
+
